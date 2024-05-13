@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Drawingview_Bug.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Drawingview_Bug"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Drawingview_Bug">
+
+ <TabBar>
+       <Tab Title="Main">
+           <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+       </Tab>
+       <Tab Title="SecondTab">
+           <ShellContent ContentTemplate="{DataTemplate local:SecondPage}" />
+       </Tab>
+    </TabBar>
+
+</Shell>
+

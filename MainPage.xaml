@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Drawingview_Bug"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="Drawingview_Bug.MainPage" x:DataType="local:MainVM">
+
+    <Grid>
+            <toolkit:DrawingView Lines="{Binding DrawingLines}" DrawingLineCompletedCommand="{Binding DrawingCompletedCommand}">
+
+
+            </toolkit:DrawingView>
+    </Grid>
+</ContentPage>
+
