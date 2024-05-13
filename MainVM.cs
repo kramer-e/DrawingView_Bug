@@ -24,7 +24,6 @@ namespace Drawingview_Bug
         {
             Application.Current?.MainPage?.DisplayAlert("Drawing completed", "binding works!", "OK");
         }
-
     }
 }
 
